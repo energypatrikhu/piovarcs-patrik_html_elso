@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="/style.css" />
+		<title>A JavaScript</title>
+	</head>
+	<body>
+		<nav>
+			<ul style="list-style-type: none">
+				<li class="nav-active">
+					<a href="/">Főoldal</a>
+				</li>
+				<li>
+					<a href="fajtai.html">Fajtái</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="section anchors">
+			<h2>Hivatkozások</h2>
+			<ul>
+				<li>
+					<a href="#bevezeto">Bevezető</a>
+				</li>
+				<li>
+					<a href="#tortenete">Története</a>
+				</li>
+				<li>
+					<a href="#forrasok">Források</a>
+				</li>
+			</ul>
+		</div>
+
+		<div
+			class="section"
+			id="bevezeto">
+			<h1>Bevezető</h1>
+			<div class="logo-container">
+				<img
+					src="/javascript_logo.png"
+					alt="JavaScript Logó"
+					title="JavaScript Logó" />
+			</div>
+			<p>A <b>JavaScript</b> motor egy szoftver összetevő amely végrehajtja <b>JavaScript</b> kód. Az első <b>JavaScript</b> motorok pusztán tolmácsok, de az összes releváns modern motor használ éppen az időben történő összeállítás a jobb teljesítmény érdekében.</p>
+			<p>A <b>JavaScript</b> motorokat általában a webböngésző szállítók, és minden nagyobb böngészőnek van egy. Egy böngészőben a <b>JavaScript</b> motor a renderelő motor keresztül Dokumentum objektummodell.</p>
+			<p>A <b>JavaScript</b> motorok használata nem korlátozódik a böngészőkre. Például a V8 motor a Node.js és Deno futási rendszerek.</p>
+			<p>Azóta ECMAScript a <b>JavaScript</b> szabványosított specifikációja, ECMAScript motor ezeknek a motoroknak egy másik neve. A WebAssembly, egyes motorok ugyanabban a kódban is végrehajthatják ezt a kódot Sandbox szokásos <b>JavaScript</b>-kódként.</p>
+		</div>
+
+		<div
+			class="section"
+			id="tortenete">
+			<h2>Története</h2>
+			<p>Az első <b>JavaScript</b> motort a Brendan Eich 1995-ben a Netscape Navigator webböngésző. Ez kezdetleges volt tolmács a születő nyelvre, amelyet Eich talált ki. ( Ez a SpiderMonkey motor, amelyet még mindig a Firefox böngésző. )</p>
+			<p>Az első modern <b>JavaScript</b> motor volt V8, készítette Google a króm böngésző. A V8 2008-ban debütált a Chrome részeként, és teljesítménye sokkal jobb volt, mint bármelyik korábbi motor. A legfontosabb újítás volt éppen az időben történő összeállítás, amely jelentősen javíthatja a végrehajtási időket.</p>
+			<p>Más böngésző-gyártóknak át kellett javítaniuk tolmácsaikat a verseny érdekében. Apple kifejlesztett nitro motorja Safari böngésző, amelynek 30% -kal jobb teljesítménye volt, mint elődjének. Mozilla a Nitro tőkeáttételes részei a saját SpiderMonkey motorjának fejlesztése érdekében.</p>
+			<p>2017 óta ezek a motorok támogatják a WebAssembly. Ez lehetővé teszi az előre összeállított felhasználást végrehajtható az oldalszkriptek teljesítménykritikus részeire.</p>
+		</div>
+
+		<footer
+			class="section"
+			id="forrasok">
+			<h3>Források</h3>
+			<ol>
+				<li>
+					<a
+						href="https://en.wikipedia.org/wiki/JavaScript_engine"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Wikipédia - JavaScript Engine</a
+					>
+				</li>
+			</ol>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+	background-color: hsl(0, 0%, 10%);
+	color: white;
+}
+a {
+	color: aqua;
+}
+a:visited {
+	color: hsl(200, 100%, 50%);
+}
+
+nav ul {
+	display: flex;
+}
+nav ul li {
+	padding: 0.5rem 0.75rem;
+	font-size: large;
+	text-decoration: none;
+}
+nav ul li.nav-active {
+	font-weight: bold;
+	font-size: larger;
+	text-decoration: underline hsl(200, 100%, 70%);
+}
+nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: lightblue;
+}
+
+.section {
+	float: left;
+	width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-style: italic;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+}
+
+h1 {
+	text-decoration: wavy underline;
+}
+
+.section.anchors li a {
+	text-decoration-style: double;
+}
+.section.anchors li a:hover {
+	cursor: crosshair;
+}
+
+p {
+	text-align: justify;
+}
+
+.logo-container {
+	width: 200px;
+	float: right;
+	padding: 5px;
+	margin: 0 5px;
+	background-color: hsl(0, 0%, 12%);
+	border: 1px solid hsl(0, 0%, 15%);
+}
+.logo-container img {
+	width: inherit;
+	display: block;
+}
